@@ -2,3 +2,9 @@
  * Global application theme.
  * Framework overrides and customization goes here.
  */
+@import "theme-variables";
+
+.divisor {
+  margin-top: $seperator-component;
+  margin-bottom: $seperator-component;
+}

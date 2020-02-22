@@ -1,3 +1,15 @@
 .fa {
   vertical-align: middle;
 }
+
+ngbd-modal-content,
+ngb-carousel,
+.carousel-inner,
+.modal-body .row {
+  width: 100%;
+}
+.picsum-img-wrapper > img {
+  width: 100%;
+  max-height: 70vh;
+  height: fit-content;
+}
