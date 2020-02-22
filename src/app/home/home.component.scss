@@ -1,9 +1,93 @@
-.logo {
-  width: 100px;
+.hs-item {
+  height: 919px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
 }
 
-q {
-  font-style: italic;
-  font-size: 1.2rem;
-  quotes: "« " " »";
+.hs-item h1 {
+  font-size: 36px;
+  font-family: "BickhamScriptPro-Regular";
+  font-weight: 400;
+  line-height: 0.1;
+}
+
+.hs-item h2 {
+  font-size: 60px;
+  margin-bottom: 40px;
+}
+
+.hero-slider.owl-carousel .owl-nav {
+  position: absolute;
+  top: 50%;
+  margin-top: -12px;
+  right: 52px;
+}
+
+.slide-num-holder {
+  position: absolute;
+  top: 50%;
+  right: 101px;
+  z-index: 99;
+  color: #fff;
+  font-weight: 500;
+  margin-top: -10px;
+  font-size: 16px;
+}
+
+.down-sign {
+  width: 60px;
+  position: absolute;
+  bottom: 37px;
+  left: calc(50% - 30px);
+  z-index: 99;
+  text-align: center;
+}
+
+.down-sign h6 {
+  font-size: 10px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.contact-link {
+  position: absolute;
+  left: 42px;
+  bottom: 40px;
+  z-index: 99;
+}
+
+.contact-link:after {
+  position: absolute;
+  content: "";
+  height: 135px;
+  width: 1px;
+  left: 50%;
+  top: 50px;
+  background: #fff;
+}
+
+.contact-link p {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 500;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  margin-bottom: 180px;
+}
+
+.contact-link img {
+  width: 71px;
+  height: 71px;
+  border-radius: 50%;
 }

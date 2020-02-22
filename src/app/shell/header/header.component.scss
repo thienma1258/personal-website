@@ -1,9 +1,65 @@
 @import "src/theme/theme-variables";
 
-.navbar {
-  margin-bottom: $spacer;
+.header-section {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  padding: 0 15px;
+  z-index: 999;
+  background-color: $black;
 }
 
-.nav-link.dropdown-toggle {
-  cursor: pointer;
+.header-warp {
+  padding-top: 35px;
+  max-width: 1464px;
+  margin: 0 auto;
+}
+
+.site-logo {
+  display: inline-block;
+  float: left;
+}
+
+.header-social {
+  float: right;
+}
+
+.header-social a {
+  display: inline-block;
+  color: #fff;
+  margin-left: 35px;
+  padding: 9px 0;
+}
+
+.nav-switch {
+  display: none;
+}
+
+.main-menu {
+  list-style: none;
+  float: right;
+  padding-right: 220px;
+}
+
+.main-menu li {
+  display: inline-block;
+}
+
+.main-menu li a {
+  display: block;
+  font-size: 16px;
+  color: #fff;
+  margin-right: 60px;
+  padding: 9px 0;
+}
+
+.main-menu li:last-child a {
+  margin-right: 0;
+}
+
+.header-default-bg {
+  padding-bottom: 27px;
+  position: relative;
+  overflow: hidden;
 }

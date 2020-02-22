@@ -15,8 +15,6 @@ import { LoginComponent } from './login.component';
     NgbModule,
     LoginRoutingModule
   ],
-  declarations: [
-    LoginComponent
-  ]
+  declarations: [LoginComponent]
 })
-export class LoginModule { }
+export class LoginModule {}

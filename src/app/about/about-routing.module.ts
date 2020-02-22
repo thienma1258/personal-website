@@ -7,7 +7,11 @@ import { AboutComponent } from './about.component';
 
 const routes: Routes = [
   Shell.childRoutes([
-    { path: 'about', component: AboutComponent, data: { title: extract('About') } }
+    {
+      path: 'about',
+      component: AboutComponent,
+      data: { title: extract('About') }
+    }
   ])
 ];
 
@@ -16,4 +20,4 @@ const routes: Routes = [
   exports: [RouterModule],
   providers: []
 })
-export class AboutRoutingModule { }
+export class AboutRoutingModule {}

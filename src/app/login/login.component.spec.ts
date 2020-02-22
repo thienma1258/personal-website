@@ -21,8 +21,7 @@ describe('LoginComponent', () => {
         CoreModule
       ],
       declarations: [LoginComponent]
-    })
-    .compileComponents();
+    }).compileComponents();
   }));
 
   beforeEach(() => {
